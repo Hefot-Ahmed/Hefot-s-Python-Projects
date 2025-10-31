@@ -1,4 +1,4 @@
-print('BANK OF CODÉDEX')
+print('BANK OF Canada')
 
 pin = int(input('Enter your PIN: '))
 

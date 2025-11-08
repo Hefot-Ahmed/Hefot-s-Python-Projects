@@ -1,0 +1,27 @@
+class Restaurant:
+  name = ''
+  category = ''
+  rating = 0.0
+  delivery = False
+
+bobs_burgers = Restaurant()
+  bobs_burgers.name = 'Bob\'s Burgers'
+  bobs_burgers.category = 'American Diner'
+  bobs_burgers.rating = 4.7
+  bobs_burgers.delivery = False
+
+kfc = Restaurant()
+  kfc.name = 'KFC'
+  kfc.category = 'Fast Food'
+  kfc.rating = 3.8
+  kfc.delivery = True
+
+subway = Restaurant()
+  subway.name = 'Subway'
+  subway.category = 'Fast Food'
+  subway.rating = 3.6
+  subway.delivery = True
+
+print(vars(bobs_burgers))
+print(vars(kfc))
+print(vars(subway))
